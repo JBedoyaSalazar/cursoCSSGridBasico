@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 1.6rem;
+}
+
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.contenedor2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
